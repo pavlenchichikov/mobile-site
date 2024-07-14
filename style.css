@@ -352,9 +352,17 @@ color: #FFFFFF;
         padding: 40px;
     }
     .hero-image {
-        flex: 1;
+        display: flex;
+        justify-content: start;
+max-width: 100%;
+margin: -40px;
     }
     .hero-logo{
+        display: flex;
+                justify-content: start;
+                max-width: 100%;
+                margin: 40px;
+               
 
     }
     .hero-title {
