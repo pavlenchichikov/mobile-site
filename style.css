@@ -291,8 +291,10 @@ color: #FFFFFF;
                 margin: 50px;
     }
     .hero-image{
-        flex:1;
-        max-width: 386px;
+        display: flex;
+                justify-content: center;
+        max-width: 100%;
+        margin: -40px;
     }
     
     .nav-icons img {
