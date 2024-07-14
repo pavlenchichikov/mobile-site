@@ -269,6 +269,7 @@ color: #FFFFFF;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding: 40px;
         max-width: 770px;
     }
     .hero-logo{
