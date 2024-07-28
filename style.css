@@ -537,10 +537,8 @@ position: relative;
   
 /* Media query for devices with a width from 320px to 767px */
 @media (min-width: 320px) and (max-width: 767px) {
-	.header{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+	header{
+
 		width: 375px;
 	}
 	.navigation{
@@ -569,8 +567,15 @@ position: relative;
 	}
 	.banner-section{
 		margin-bottom: 40px;
-		width: 363;
-        height: 375px;
+		width: 375px;
+        height: 363px;
+	}
+	.banner-section__wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 64px;
 	}
 	
 	.banner-title__wrapper {
@@ -670,7 +675,14 @@ text-align: start;
 		max-width:736px;
 		max-height:303pX;
 	}
+	.category-women,
+.category-men,
+.category-kids {
+	width: 232px;
+	height: 167px;
+}
   
+
 	.category__wrapper {
 		
 	  flex-direction: row;
@@ -680,6 +692,14 @@ text-align: start;
 	.cards__item {
 	  width: 100%;
 	 
+	}
+
+	.cards__wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 30px;
+		margin-bottom: 48px;
 	}
   
 	.services {
